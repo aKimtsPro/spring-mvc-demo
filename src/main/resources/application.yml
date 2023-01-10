@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: pass
+    url: jdbc:postgresql://localhost:55432/cinema_db
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
