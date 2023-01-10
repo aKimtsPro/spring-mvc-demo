@@ -2,7 +2,9 @@ package be.bstorm.akimts.mvc.mapper;
 
 import be.bstorm.akimts.mvc.models.dtos.MovieDTO;
 import be.bstorm.akimts.mvc.models.entities.Movie;
+import org.springframework.stereotype.Component;
 
+@Component
 public class MovieMapper {
 
     public MovieDTO toDto(Movie entity){
