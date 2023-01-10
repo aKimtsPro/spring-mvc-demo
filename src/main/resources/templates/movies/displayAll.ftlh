@@ -1,9 +1,6 @@
-<!doctype html>
-<html lang="en">
-<head>
-    <title>Document</title>
-</head>
-<body>
+<#import "../macro/layout.ftlh" as layout/>
+
+<@layout.begin "display all"/>
 
     <h1>All movies: </h1>
 
@@ -13,5 +10,4 @@
         </#list>
     </ul>
 
-</body>
-</html>
+<@layout.end/>
